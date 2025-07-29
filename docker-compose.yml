@@ -6,6 +6,4 @@ services:
     container_name: meu-minecraft
     ports:
       - "25565:25565"
-    volumes:
-      - ./meu-servidor-minecraft:/mc  # opcional, se quiser persistir dados externos
     restart: unless-stopped
